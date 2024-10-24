@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4910A8862CC82A55005B6E50 /* AnimationAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910A8852CC82A55005B6E50 /* AnimationAsyncImage.swift */; };
 		49135F122CC7BCA700721C3A /* SwiftUIAsyncImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F112CC7BCA700721C3A /* SwiftUIAsyncImageApp.swift */; };
 		49135F142CC7BCA700721C3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F132CC7BCA700721C3A /* ContentView.swift */; };
 		49135F162CC7BCA800721C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49135F152CC7BCA800721C3A /* Assets.xcassets */; };
 		49135F192CC7BCA800721C3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49135F182CC7BCA800721C3A /* Preview Assets.xcassets */; };
+		49135F202CC7BD9600721C3A /* BasicAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F1F2CC7BD9600721C3A /* BasicAsyncImage.swift */; };
+		49135F222CC7BE6F00721C3A /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F212CC7BE6F00721C3A /* Image+Extension.swift */; };
+		49135F242CC7C00100721C3A /* ScaleAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F232CC7C00100721C3A /* ScaleAsyncImage.swift */; };
+		49135F262CC7C15200721C3A /* PlaceholderAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F252CC7C15200721C3A /* PlaceholderAsyncImage.swift */; };
+		49135F282CC7C3D800721C3A /* PhaseAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F272CC7C3D800721C3A /* PhaseAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4910A8852CC82A55005B6E50 /* AnimationAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAsyncImage.swift; sourceTree = "<group>"; };
 		49135F0E2CC7BCA700721C3A /* SwiftUIAsyncImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAsyncImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49135F112CC7BCA700721C3A /* SwiftUIAsyncImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAsyncImageApp.swift; sourceTree = "<group>"; };
 		49135F132CC7BCA700721C3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49135F152CC7BCA800721C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49135F182CC7BCA800721C3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49135F1F2CC7BD9600721C3A /* BasicAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAsyncImage.swift; sourceTree = "<group>"; };
+		49135F212CC7BE6F00721C3A /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		49135F232CC7C00100721C3A /* ScaleAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAsyncImage.swift; sourceTree = "<group>"; };
+		49135F252CC7C15200721C3A /* PlaceholderAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderAsyncImage.swift; sourceTree = "<group>"; };
+		49135F272CC7C3D800721C3A /* PhaseAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				49135F112CC7BCA700721C3A /* SwiftUIAsyncImageApp.swift */,
 				49135F132CC7BCA700721C3A /* ContentView.swift */,
+				49135F212CC7BE6F00721C3A /* Image+Extension.swift */,
+				49135F1F2CC7BD9600721C3A /* BasicAsyncImage.swift */,
+				49135F232CC7C00100721C3A /* ScaleAsyncImage.swift */,
+				49135F252CC7C15200721C3A /* PlaceholderAsyncImage.swift */,
+				49135F272CC7C3D800721C3A /* PhaseAsyncImage.swift */,
+				4910A8852CC82A55005B6E50 /* AnimationAsyncImage.swift */,
 				49135F152CC7BCA800721C3A /* Assets.xcassets */,
 				49135F172CC7BCA800721C3A /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49135F242CC7C00100721C3A /* ScaleAsyncImage.swift in Sources */,
 				49135F142CC7BCA700721C3A /* ContentView.swift in Sources */,
+				49135F202CC7BD9600721C3A /* BasicAsyncImage.swift in Sources */,
+				49135F282CC7C3D800721C3A /* PhaseAsyncImage.swift in Sources */,
 				49135F122CC7BCA700721C3A /* SwiftUIAsyncImageApp.swift in Sources */,
+				4910A8862CC82A55005B6E50 /* AnimationAsyncImage.swift in Sources */,
+				49135F262CC7C15200721C3A /* PlaceholderAsyncImage.swift in Sources */,
+				49135F222CC7BE6F00721C3A /* Image+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
